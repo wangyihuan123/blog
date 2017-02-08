@@ -1,0 +1,20 @@
+机器学习和数据挖掘的持续火热，说明，计算机世界变天了。
+因为机器学习和数据挖掘的本质其实是对应用程序的算法。而以往，我们偏向于对系统的集成。
+
+Because essentially, machine learning and data mining are application-oriented algorithm, like database. This is a typical upgrade process like network and web technology. But the difference is that , the current network and web technology  is still very dependent on current hardware implementation. For instance, Wi-Fi is point to point which means we assume there is a wire connection between the two points. Browsers are the extension of operating system based on C/S. Tranditional OS are server based OS. Browsers are applications and service based OS.
+
+While as before, scientists and engineers tend to focus on the system integration or hardware related, such as operating system and embedded system.
+
+Network technology and programming languages are the extention of the system integration.
+
+However, the application and service based on web are the connection between the system frameworks and the appications. A website or a server on the web, or a C/S architecture is the extension of distribution system which can be easily used to expand due to the massive applications.
+
+According the idea above, we can predict that system integration companies, like Microsoft and Apple, may not grow as fast as application oriented companies, like Google and Facebook.
+
+And before, focusing on system integration can make the companies(intel and microsoft) unbeatable for 30 years. However, the now, although apple already has done very well in both SoC and system integration, it still worries about the future and provide a lot of application service.
+
+By the way, it is obvious that Emacs are designed for English speakers, since in English "word" is so easy to identified (using spaces) and hence, words are easy to edit.
+
+
+
+ps. Go Golang, not Swift, not Node.js

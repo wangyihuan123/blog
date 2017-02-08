@@ -1,0 +1,36 @@
+https://www.youtube.com/watch?v=bzZ09dAbLEE
+
+* it will auto enter
+* start the star in new line
+** continue
+* cmd + enter => star
+  :LOGBOOK:
+  - State "NEXT"       from "DONE"       [2017-01-30 Mon 22:31]
+  - State "DONE"       from "NEXT"       [2017-01-30 Mon 22:31]
+  :END:
+** CANCELLED right arrow + cmd => sub level
+   CLOSED: [2017-01-30 Mon 22:32]
+   :LOGBOOK:
+   - State "NEXT"       from "DONE"       [2017-01-30 Mon 22:15]
+   - State "DONE"       from "PROJECT"    [2017-01-30 Mon 22:15]
+   - State "PROJECT"    from "DONE"       [2017-01-30 Mon 22:15]
+   - State "DONE"       from "PROJECT"    [2017-01-30 Mon 22:15]
+   - State "PROJECT"    from "DONE"       [2017-01-30 Mon 22:15]
+   - State "DONE"       from "PROJECT"    [2017-01-30 Mon 22:15]
+   - State "PROJECT"    from "DONE"       [2017-01-30 Mon 22:15]
+   - State "DONE"       from "NEXT"       [2017-01-30 Mon 22:15]
+   :END:
+** cmd + end => auto new line with double stars(previous level)
+*** up arrow + cmd => move the current line up during the other samel levels
+*** otherwise (it does not have any same level bullets), it doesn't work
+**
+
+
+
+* start from emacs, every day
+
+* TODO device driver development
+  - [ ] network reading part in ldd3 pdf book
+  -
+
+**

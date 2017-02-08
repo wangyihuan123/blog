@@ -1,0 +1,4 @@
+The seventh day after Catherine left.
+
+22.00 one hour direct-mapped caches of from 210's recording
+22.20 fully-associative cahce and hybrid mode of direct-mapped and fully-associative

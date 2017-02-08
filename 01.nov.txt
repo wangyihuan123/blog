@@ -1,0 +1,20 @@
+The Eighth day
+
+1.00 am looked up apartment price for one hour at midnight
+9.00 got up and had a 8 hours sleep
+10.30 went shopping with dongdong and showed him the St Lukes Mall
+12.00 finshed two out of four lecture recordings of 210 about the cache and virtual memory: although not really understand the concept of write-through and write-back policy of cache and TLB of virtual memory
+12.30 another half an hour 210 recording. almost finish virtual memory part
+13.00 arrived at school
+15.00 one hour on stats 20x
+15.30 don't know what to do
+
+21.00 download and prepare materials for machine learning study
+21.30 drew the picture about my todo list
+22.00 search data science job on seek
+
+
+
+why the page information is stored in the memory?? Yeah, that's why we need TLB-translaion lookaside buffer
+
+like 盗梦空间, the world is not real   , training, training, always training
