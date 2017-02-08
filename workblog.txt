@@ -28,3 +28,10 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 solution:
 http://stackoverflow.com/questions/10298291/cannot-push-to-github-keeps-saying-need-merge
+
+
+using emacs: magit to commit and comment
+https://magit.vc/manual/magit/Committing.html#Committing        <<<<<<<<<<  offical one
+https://magit.vc/manual/magit/Editing-commit-messages.html
+http://jr0cket.co.uk/2012/12/driving-git-with-emacs-pure-magic-with.html <<<<<<<<<  good one, even tell you add remote repo from magit
+https://magit.vc/manual/ <<<<  offical root
