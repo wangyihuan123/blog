@@ -1,0 +1,30 @@
+Insert current date and time:
+C-u M-! date
+
+Thu Feb  9 05:38:48 NZDT 2017
+而今迈步从头越
+all start from work blog, like 9 years ago.
+
+
+
+add my blog directory to the remote github
+https://help.github.com/articles/adding-a-remote/
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+fail:
+$ git remote -v
+origin	git@github.com:wangyihuan123/blog.git (fetch)
+origin	git@github.com:wangyihuan123/blog.git (push)
+zxl2013 at benjaminmacbook in ~/blog on master*
+$ git push -u origin master
+To github.com:wangyihuan123/blog.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:wangyihuan123/blog.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+solution:
+http://stackoverflow.com/questions/10298291/cannot-push-to-github-keeps-saying-need-merge
