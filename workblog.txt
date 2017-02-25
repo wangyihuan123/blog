@@ -1,6 +1,421 @@
 Insert current date and time:
 C-u M-! date
 
+
+--------------------------------------------------------------------
+Mon 20 Feb 2017 11:29:04 NZDT
+想想今天要做的事情：
+1. 编程
+2. 投简历
+3. 转账
+
+-------------------------------------------------------------------
+Sun 19 Feb 2017 10:09:19 NZDT
+
+Actually, if you want to understand spacemacs, it is necessary to read layer tutorial: http://spacemacs.org/doc/LAYERS.html
+
+Have a problem for a newbie? Please go over http://spacemacs.org/doc/FAQ.html first!
+
+now, the problem is that: what is the problem of auto-completion?
+https://emacsgifs.github.io/company-mode-completion-and-candidate-filtering-785288121545994241  <<< 尤其里面提到的，C-/  和 C-M-/ 挺好用的
+其中 dotspacemacs/user-config  就是指在.spacemacs文件中的(defun dotspacemacs/user-config ()  <<<< 这个函数里面
+
+现在的主要问题是：
+c/c++的功能支持不够，auto-completion for c-c++
+already enabled clang support: http://spacemacs.org/layers/+lang/c-c++/README.html#orgheadline7
+
+
+emacs管理project的复杂度在于，需要自己手动创建一些project的配置文件，比如，.dir-locals.el 帮助编译的，或者帮助生成tags的，或者其他
+
+https://www.youtube.com/watch?v=OjbkCEkboA8  这个可以看看他的思想，而不是直接一步步执行
+
+
+spacemacs还有一个.spacemacs.d的概念： http://spacemacs.org/doc/QUICK_START.html#dotdirectory-spacemacsd
+
+
+在写了一点点，哪怕是一点点代码，也会发现，自己的编程技巧并不是很高。还是需要看优秀的代码啊！！是的，很久没有看优秀的代码了
+
+
+台湾2000年以前，无论是李登辉，蒋经国，还是蒋中正都是信仰基督教的。这或许是美国的态度的原因之一，也是台湾成为亚洲四小龙的基础之一。李登辉倒是出人意料的昏招连连，或许和他是“日本人”有关。之后，由陈水扁开始的，包括马英九，蔡英文都没有特定的宗教信仰。不知道这和台湾近20年的衰弱有没有关系。或者说，由于民众的基础发生了偏差，所以，才会选出了“民粹”的台湾人？从根本上说，是他们有明确的独立需求，却更加迷茫，缺乏决断与毅力，安于现状-尤其是现在的经济，国际关系等。以前一直是抱美国大腿，后来全世界都在抱大陆，但台湾却不是那么想抱大陆，只想问自己是谁，所以才诞生了陈水扁。他们忘记了一个非常重要的原理，新势力在上升过程中要避免和旧势力的直接冲突。要的是，卧薪尝胆，要的是，高筑墙，广积粮，缓称王。是的，要的是埋头苦干，但心中不忘理想与自我。日本人的模式其实很好，经济政治军事上完全是依赖美国，但是在教育，文化，科研方面，还是独树一帜，自主摸索。台湾在70年代到90年代的音乐电影成就可以很明确地感受到他们自己的思想。每个人都是独立的人，站队不站队不重要，不用强调自己是谁，不是谁，做出你自己的东西，这才是关键。文革的重要特征就是想讨论清楚，我们是谁，我们不是谁，我们什么态度，我们是如何独立如何特殊如何优越。但，这个是用去说的吗？不！是做的！做出你的成绩来，有了骨骼和肌肉，别人会给你定义出你是谁。人不多，帮派倒不少，相互掐架，勾心斗角。
+关于台湾的其他： https://www.zhihu.com/question/26436924  李建秋说得挺好。 归根结底，就像刚才说的，人不多，但是帮派挺多，相互掐架，背后的意味深长。各种经历，各种思想的人混杂一起，缺乏凝聚的精神支柱。什么是精神支柱？就是我要做出个什么东西出来。有时候，觉得台湾和香港还是很类似的，香港在97年以前不会花时间琢磨自己是谁。是的，在时代大潮变迁的时候，人容易迷惑，容易去琢磨自己的原则，容易重新定义自己。然而，重新定义自己其实并不是那么重要，重要的是，重新规划自己要做的东西。成为谁，不重要，发展才是硬道理。现在我更加相信，白猫黑猫，抓到老鼠就是好猫。当然，要记得，发展可以有先后，但是，缺的东西，一定要补，否则像中国这样缺大了，就补不回来了。别老惦记着自家的排位放在哪里，闷头苦干才是唯一的出路。或者说，像菜菜那样的才是正道。
+
+如何苦干？改革开放！  放下身段，放下优越感。抱大腿，甚至偷师学艺。
+
+---------------------------------------------------------------------
+Sat 18 Feb 2017 18:35:00 NZDT
+
+刚才琢磨很久的一个bold无法显示的问题，搞了半天，原来是之前装font "Source Code Pro"的时候，其他字体没有装全导致的，之前只装了light，所以字体很细，现在舒服多了。现在可以让字体稍微小一点点了。
+
+折磨死我了，想按照manual上说的操作org的binding key，但是发现spc m is undefined.找了一圈都不知道是什么原因，一开始怀疑是 with-eval-after-load 的关系，但是。。。还是不是很明白layer 以及auto-load的之间什么关系。真的要看吗？？
+
+最后重新安装了org就好了。真是莫名其妙。不知道是不是和其他组件或语言的安装有关。可能是两个原因：
+1. http://spacemacs.org/doc/FAQ.html 1.3 Why are packages installed with package-install automatically deleted by Spacemacs when it boots?
+
+By default Spacemacs will keep only the packages that you use (i.e. the packages belonging to a layer explicitly listed in the variable dotspacemacs-configuration-layers).
+
+2. http://spacemacs.org/layers/+emacs/org/README.html  1.3 Important Note
+
+
+---------------------------------------------------------------------
+Fri 17 Feb 2017 03:29:08 NZDT
+问题和困难一个个克服，一个个解决。
+关键的时候咬咬牙。
+菜菜和东子就是我最大最好的贵人。每个人都是我最好的贵人
+技术的关键，更在于你是怎么用的。你自己是否主动的学习和运用。不过，在salira至少看到有主动讨论技术的讨论得热火滔天的张小强和那个周xx。在宽带，也有博士，可是和他们很少有交集，
+走是对的，大家都走说明的确是看到危机，看不到希望。留也是对的，关键不在于是否留，而在于如何走如何留。心不对，怎么选都一样。当然，走，多半都是好的。
+
+闭门造车
+
+8年前也是一个梦，8年前也是一段挫折来告诉我思想需要改变。当初尝试写诗。现在尝试用英文写技术博客。
+当初说，把一年的钱和精力投入到一个月中，就搞定了。对于女人需要毫无保留的赞同和支持，哪怕是装也要装出来，直到有一天你会觉得是真的。。工作，也是这样的。把一年的精力和钱投入到一个月中，也就出来了。像菜菜那样，把没一分钟的时间都投入到工作中去。对于自己，也要毫无保留的去赞同和支持。fake it until you become it。 8年前是对别人的梦，今天是对自己的。当初怎么对菜菜的，现在就要怎么对自己。·
+那个时候通过写东西，现在也需要通过写。写是打开我的大门的东西。怎么写，如何写？可以参考知乎和github一起写。每天都要写，每天都要写，每天都要写。无论写点啥，但都要写。哪怕写得很乱很杂也要写。
+
+
+这年头，公司拼得是啥？是把论文转化为项目，然后把项目转换为产品的速度！google，facebook都是在拼这个。有质量的论文，快的2，3年，慢的5，6年就能出一个。有质量的产品可以跟上这个速度吗？事实上，要想让这个产品获利的话，应该要比这个速度更快，否则，产品刚刚开始运营，还没开始营销呢，新突破的论文就出来。。。google的tensorflow就是个很好的例子。产品还没成型呢，营销早就做了两三年了，可以说，营销和产品同时开始做的。
+emacs 从26版本开始支持多线程，虽然也是为了跟上潮流，但是，可以预见，难以改变其宿命--为一个新平台做接口做铺垫。
+
+
+
+Fri 17 Feb 2017 15:06:42 NZDT
+为什么说，欧洲的宗教改革是欧洲文明二次爆发的开始？
+文明先看看类比：
+古希腊的“黄金时期” 强盛了一百多年，罗马吸收前者的文明精华（宗教，哲学，科学，艺术，工艺等），强盛了好几百年
+英国的“日不落帝国”辉煌的2百多年，美国吸收前者的文明精华，会不会也要强盛个好几百年呢？
+
+哥白尼其实是个不亚于达芬奇爱因斯坦的天才，可惜是在宗教高于王权的中世纪“黑暗时代”。
+
+
+
+
+Fri 17 Feb 2017 04:00:32 NZDT
+上回说到vim/emacs的思想和选择他们的态度。这回，我们具体来看看他们的小派别之争。
+其实不管是vim 还是emacs， 最主要的就是集大成者一定要有佰纳海川的气度和智慧。这一点在spacemacs上看得更清楚（因为它的结构很清晰，文档也比较有条理，容易看清楚）。你看它其实就是提供一个框架，而实质功能性的东西都是运用各种开源的东西（这点和其他emacs配置类似）。似乎，除了架构，异步调用，也其实也没什么自己独特的应用，本质上，的确是有点像操作系统。而git呢？git算操作系统吗？
+
+之前一直很感叹Mac上的各种App很精巧，很漂亮，相比以前的Windows真是既舒服又好用。现在看起来，有了emacs这个另类的操作系统，要不要mac关系也不大。这大概就是为什么emacs会在linux上继续生长，因为这是两个操作系统相互协作的系统级架构：linux管内核和驱动，emacs管应用与个性化。但，这就够了吗？我觉得，在新技术时代，两个操作系统应该是不够的。肯定会有第三类操作系统诞生。如果是在linux的话，第三类定制类的系统的目标是什么？延伸服务，尤其是web service，或许我们可以称之为服务系统。这样想来，分布式和机器学习其实也是webservice的形式和内容。至于语言形式和具体框架倒不是那么重要，反正不会是用上层应用程序的语言的，反正肯定是结合各自并发模式的，反正有了目标之后，剩下的只要公开招标就好了。
+
+如果是基于vim的gnu的概念，那应该是各种组件/小工具的松耦合的形式，比如像git的架构，分为内部开发工具和用户接口工具。而所谓的工具，也可以是接口，既然是接口就可以当做web service，至于小工具自己用什么，就不重要了。
+是的，emacs的紧耦合和vim的松耦合大战又会在新平台上大战。上一场大战持续了30年，直到spacemacs的出现，将其融合起来对抗共同的敌人，客户端上的IDE，以及web开发的新模式。这个新，是因为web（尤其是2.0以后）的威力太大，发展太快，需要更多更新的开发组件，来适应其变化多端的应用需求。颠覆始于10年，无论是前端基础设施-chrome/firefox的出现，还是后端基础设施mapreduce/GFS的出现，造就了前端javascript的框架是每年都在换，后端HPC思想的直接颠覆以及人工智能作为产品级的服务的可能性。而对于前后端的开发平台，google也是不惜余力，V8引擎，Angularjs，Golang语言，CPU/GPU的协作，除了云服务的部署力度稍逊亚马逊之外，各种应用的基础服务几乎一条龙通吃。有时候觉得，google的地位要比当初的微软更加恐怖。当初微软借了IBM的软件搞出了DOS，一步步发展成windows 以及基于windows的各种开发应用（office/SQL/VisulStudio),甚至2000以前小型服务器也一度是windows server的天下。这样看来拉里佩奇的alphabet其实是已经看到的google的垄断地位不可避免，于是主动进行拆分，从而避免步微软垄断官司的后尘。
+
+浏览器是新时代的客户端，但是并不是服务器端的。即便是新时代，遵循的应该还是2/8定理。20%的精英创造了80%的生产力，而这20%中，我相信是由这些linux的服务组成的。想来，linux的精神真是牛逼，就是不同任何厂商合作，甚至linus公开对如日中天的NVIDIA表示不满。现在的linus有点当年的Stallman的味道。一个用emacs高调宣传GNU思想，一个用git将其发扬光大。
+
+扯远了，权当说书了。下回再分解吧。
+
+
+拉回spacemacs
+https://ontologicalblog.com/2016/10/14/an-absolute-beginners-guide-to-spacemacs-for-academic-writing/
+
+
+-------------------------------------------------------------------------------
+Thu 16 Feb 2017 12:02:18 NZDT
+
+14.8.2 Text manipulation commands
+align region是什么意思？
+14.8.7 Spell checking
+
+Spell checking is enabled by including the spell checking layer in your dotfile.
+Keybindings are listed in the layer documentation.
+
+
+leifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.
+
+
+
+
+If you want to do it better in a long term, try vim/emacs. If you just want a perfect tool now, pick an expensive one.
+
+IDE with simple configuration:       This tool is useful. It can help me finish my work
+Custumered IDE:                      I want to make my work better and this tool is cool.
+vim:               I love my tool, I love my job.
+emacs:             I just want to take it extremely serious, no other reason. Wasting time? Useless? Who care!
+为什么很多人喜欢用emacs/vim，哪怕现成的IDE已经很完善了？
+因为emacs/vim用户更乐于探索和解决他们感兴趣的问题。当他们发现对手上的编辑器不满意的时候，他们会非常愉悦地去研究去找办法解决，最终让这个“不满意”变成了让自己很满意的的点，而这个满足感会体现在以后的每一次使用上，从而增强自信心，从而增强了对编程的热爱，让你觉得自己配得上“程序员”的名号。
+而传统的IDE用户通常不太喜欢花太多的精力在研究一个工具上，所以，他们通常都不像vim/emacs用户那么了解IDE的功能特点，“所见即所得”是他们对好用的工具的定义。所以不在工具栏/任务栏/右键菜单 上的功能他们也不怎么知道，也不太关心。
+
+有些人会自我暗示，IDE一般过些年也会换的，现在就算精通了，过两年环境一变，又要重新来过，尤其是搞技术的，本身技术就变得特别快，“是吃青春饭的”。古人不是说“学而优则仕”吗？ 于是，这些人只是把IDE视为为当前的工作解决问题的临时工具。就好像他们的职业，过些年就会换做经理，以后自己创业了，不编程了，还费这心思搞这个工具干嘛？
+为什么会有这种思想，因为在国内计算机行业起步较晚，有20年以上的编程经验的人极少，所以，从一开始就对编程工具严肃对待的人也是极少的。
+
+这个问题的本质是什么？
+对于vim/emacs用户，他们把编辑器当做伴随自己整个职业生涯甚至自己人生的一部分。所以，当时过境迁，技术环境进化了，工作内容也进化了，编程语言也进化了，文件格式/形式都进化了，他们的编辑器跟着他们自己一起进化。
+真正优秀的人，不管未来如何，而此时此刻，我是全身心的投入，就像长久不灭的爱情，始终保持自己的浪漫与激情，不断的经营, 改进，分享，一起成长，共同进步。这大概就是自由软件的精神吧。
+Someone win because they take it serious! 从这点来看，Emacs似乎更严肃一点。什么叫严肃？在我眼里，就是“不急，我还没明白它的原理呢”。现在想来，数学（不是算数），阅读与写作，外语，这些也都是很严肃的东西。
+其实这类问题的争论从来没有停止过。比如，latex和word选哪个？ 其实仔细想来，谁喜欢用word？普通职员，商人，经理。谁喜欢用latex？学者，严肃的写作人。其核心问题是，内容和格式要不要分开？格式是否可以系统性的编辑？当两个派别的人相互打架，最终的胜利者是谁？呵呵，在我眼里，谁都不是，是他们的结合者。html+css+javascrip/Markdown。博弈论中有个例子：在一条很长的海滩上，有两个卖饮料的摊位，请问，如果他们可以随意选择，他们的最终位置是怎么样的？ 答： 他们最终会选择在海岸线的中点靠在一起。政党是这样，产品也是这样。所以，对于普通人，编程利器怎么选？选个可以深度配置的IDE或者界面漂亮交互友好的类似vim/emacs软件或者配置。写作利器怎么选？要相信会有一个交互友好的编辑器，既可以分别编辑内容和编辑格式，又可以两者同时编辑的。CPU的复杂逻辑处理能力和GPU的简单逻辑并行能力选哪个？以后一定会有一个综合方案的领头羊。工作和家庭怎么选，公平和效率怎么选，作为普通人，我会选择兼顾的。
+
+
+
+当你在选择编辑器的时候，如果你对这个问题非常严肃认真，你有很大的可能性会选择vim/emacs。如果你对这个问题很务实与急迫，你多半会选择一个付费的IDE。小题大做的话，这是个人生态度问题。
+
+那我们应该怎么选？
+一个长寿的产品，优秀不是其最重要的，优秀的产品迟早会被更优秀的产品替代掉的。产品之所以长寿不是因为它在当下如何的流行，而在于它如何能持续下去。对于编辑器/IDE，从长期来讲，体积大小，运行速度，功能特征根本不是问题，甚至连使用方便都不是那么重要，真正优秀的软件拼的不是这些，而是：1.思想与精神； 2. 价格。
+从历史上看，那个选择有不断演进的基因，它就有机会活得更长。这是vim/emacs的编辑器之战持续了30多年原因，因为他们都能很快的适应新技术，新语言，新趋势。而在我眼里，作为严肃的开发者，以后都要面对各种挑战，分布式环境，嵌入式环境，移动平台环境，或许还有VR/AR环境和量子计算环境，但真正能让你静下心来严肃起来进行思考和分析的，还是手头的那些枯燥的工具。那些设计目标是方便与快捷的工具，以后也会被替代的，所以，手机是给普通人/商人/管理人员的福音，但不是严肃开发者的。 好吧，我已经一边倒的说vim/emacs的好了。
+
+If you want to do it better in a long term, try vim/emacs. If you just want a perfect tool now, pick an expensive one.
+
+IDE/Editor Decision                       The voice behind the decision
+------------------------------------------------------------------------------------------
+IDE with simple configuration:       This tool is useful. It can help me finish my work
+Custumered IDE:                      I want to make my work better and efficient. This tool is cool!
+Vim:                                 I love my tool, I love my job.
+Emacs:                               I just want to take it extremely serious. Wasting time? Useless? Who care!
+
+顺便安利一下：扎克伯格貌似用的也是emacs，请参考这里：https://www.quora.com/What-development-tools-were-used-by-Mark-Zuckerberg-to-create-Facebook-Did-he-use-an-IDE-or-an-editor-like-Emacs
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+Wed 15 Feb 2017 07:18:34 NZDT
+2014 sublime text, phpstorm
+2015 IntelliJ IDEA, RStudio
+2016 Clion, Emacs
+2017 Spacemacs
+
+There is a problem: font and theme can not work:
+why .spacemacs cannot work? why hybrid cannot work? why emacs mode can work? why font and theme cannot work in .spacemacs
+Looks like the problem with font and theme, because when I change edit-style between vim and emacs, it worked (but not hybridThere is a problem: font and theme can).
+The clue is that: I can change the theme, such as from dark to light, based on command setting, not '.spacemacs'.
+solution: https://github.com/syl20bnr/spacemacs/issues/231
+"If the font specified in dotspacemacs-default-font does not exist, then none of the settings will be applied either (size, weight etc.)"
+This time we leart: be patient on the github issue report, the bug mayb be reopen which may have different scenairo and solutions. Sometimes, your problem is at the end of discussion.
+
+Now, I switched to hybrid mode, which is quite convenient! Because I can type in insert-mode while move using emacs key-binding at the same time!! Cool!
+Using hybrid's default configuration as mentioned in spacemacs's documents
+
+now I know my weaknees! my mode: when I meet a issue/problem, I don't know how to deal with it and I do not have my own thinking for solving problem and determiation.
+
+That's why I feel frustrated when I meet a problem and do not feel happy after I solve a problem.
+very very important!!
+
+为什么很多人喜欢用emacs/vim，哪怕现成的IDE已经很完善了？
+因为emacs/vim用户更乐于探索和解决他们感兴趣的问题。
+
+当他们发现对手上的编辑器不满意的时候，他们会非常愉悦地去研究去找办法解决，最终让这个“不满意”变成了让自己很满意的的点，而这个满足感会体现在以后的每一次使用上，从而增强自信心，从而增强了对编程的热爱，让你觉得自己配得上“程序员”的名号。
+而传统的IDE用户通常不太喜欢花太多的精力在研究一个工具上，所以，他们通常都不像vim/emacs用户那么了解IDE的功能特点，“所见即所得”是他们对好用的工具的定义。所以不在工具栏/任务栏/右键菜单 上的功能他们也不怎么知道，也不太关心。
+
+有些人会自我暗示，IDE一般过些年也会换的，现在就算精通了，过两年环境一变，又要重新来过，尤其是搞技术的，本身技术就变得特别快，“是吃青春饭的”。古人不是说“学而优则仕”吗？ 于是，这些人只是把IDE视为为当前的工作解决问题的临时工具。就好像他们的职业，过些年就会换做经理，以后自己创业了，不编程了，还费这心思搞这个工具干嘛？
+为什么会有这种思想，因为在国内计算机行业起步较晚，有20年以上的编程经验的人极少，所以，从一开始就对编程工具严肃对待的人也是极少的。
+
+
+那我们应该怎么选？
+而vim/emacs用户，他们把编辑器当做伴随自己整个职业生涯甚至自己人生的一部分。所以，时过境迁，技术环境进化了，工作内容也进化了，编程语言也进化了，文件格式/形式都进化了。我们的工具如何进化呢？
+真正优秀的人，不管未来如何，而此时此刻，我是全身心的投入，就像长久不灭的爱情，始终保持自己的浪漫与激情，不断的经营, 改进，分享，一起成长，共同进步。这大概就是自由软件的精神吧。
+Someone win because they take it serious! 从这点来看，Emacs似乎更严肃一点。什么叫严肃？在我眼里，就是“不急，我还没明白它的原理呢”。现在想来，数学（不是算数），阅读与写作，外语，这些也都是很严肃的东西。
+
+很多东西，从长期来讲，体积大小，运行速度，功能特征根本不是问题，甚至连使用方便都不是那么重要，真正优秀的软件拼的不是这些，而是：1.思想与精神； 2. 价格。
+从历史上看，那个选择有不断演进的基因，它就有机会活得更长。这是vim/emacs的编辑器之战持续了30多年原因，因为他们都能很快的适应新技术，新语言，新趋势。而在我眼里，作为严肃的开发者，以后都要面对各种挑战，分布式环境，嵌入式环境，移动平台环境，或许还有VR/AR环境和量子计算环境，但真正能让你静下心来严肃起来进行思考和分析的，还是手头的那些枯燥的工具。那些设计目标是方便与快捷的工具，以后也会被替代的，所以，手机是给普通人/商人/管理人员的福音，但不是严肃开发者的。 好吧，我已经一边倒的说vim/emacs的好了。
+
+另外再说一个观点：一个长寿的产品，优秀不是其最重要的，优秀的产品迟早会被更优秀的产品替代掉的。
+
+其实这类问题的争论从来没有停止过。比如，latex和word选哪个？ 其实仔细想来，谁喜欢用word？普通职员，商人，经理。谁喜欢用latex？学者，严肃的写作人。其核心问题是，内容和格式要不要分开？格式是否可以系统性的编辑？当两个派别的人相互打架，最终的胜利者是谁？呵呵，在我眼里，谁都不是，是他们的结合者。html+css+javascrip/Markdown。博弈论中有个例子：在一条很长的海滩上，有两个卖饮料的摊位，请问，如果他们可以随意选择，他们的最终位置是怎么样的？ 答： 他们最终会选择在海岸线的中点靠在一起。政党是这样，产品也是这样。所以，对于普通人，编程利器怎么选？选个可以深度配置的IDE或者界面漂亮交互友好的类似vim/emacs软件或者配置。写作利器怎么选？要相信会有一个交互友好的编辑器，既可以分别编辑内容和编辑格式，又可以两者同时编辑的。CPU的复杂逻辑处理能力和GPU的简单逻辑并行能力选哪个？以后一定会有一个综合方案的领头羊。工作和家庭怎么选，普通人都会选择兼顾的。
+
+
+当你在选择编辑器的时候，如果你对这个问题非常严肃认真，你有很大的可能性会选择vim/emacs。如果你对这个问题很务实与急迫，你多半会选择一个付费的IDE。小题大做的话，这是个人生态度问题。
+
+Why some people like emacs/vim, though many other IDEs also can have the similar functions/features? Because emacs/vim users are happy to explore or maybe reinvent all the functions/features when they feel unhappy with the editor. However, IDE users usually don't like to spend so much time on a tool which cause they usually do not know IDE as much as vim/emacs users because normally IDE cannot last very long (comparing with vim/emacs) which leads to the current result that the IDE users only regard the tool as a temporary tool for the current work not for their whole career/lifes. So, when 20 years later, all the technology evolve, the work changes or evolve as well. Old IDEs can be replaced and old companies may not ear money as before. But hackers regard the editor as their career/life, so they would continue to improve their editors.  Well, this hacking spirit - even for a editor, perhaps, is the core of GNU.
+
+So, who like word? A worker, or a business man, manager. And , what's your dream? A business man or an Artisan? By the way, what kind of text editor does/did Mark Zuckerberg use? Think about it. Why?
+P.S: A quick google serach reveals that Mark liked/likes to use Emacs. https://www.quora.com/What-development-tools-were-used-by-Mark-Zuckerberg-to-create-Facebook-Did-he-use-an-IDE-or-an-editor-like-Emacs
+或许我们也可以类比，latex vs word, gnu vs great company, 而最终的胜利者却是html+css+javascrip! 相对来讲，还是latex往web方向转更容易些，衍生品是超级简化了的markdown, 很多东西，从长期来讲，体积大小，运行速度根本不是问题，甚至连使用方便都不是那么重要，真正优秀的软件拼的不是这些，而是两个：1.思想与精神； 2. 价格。The winners won because they take it serious! 从这点来看，Emacs似乎更严肃一点
+emacs/vim come from latex, code, anything
+
+one day, our editor need to support distributed system, embedded system, mobile system, VR/AR system, artificient intelligence system, and need to manipulate music or video or other data format, do you think other tools can evolve into those stages?
+
+Why not many people like vim/emacs? because not many people take this so serious at the beginning, and because in China we donot have many programmer have more than 20 years experience.
+
+If you want to do it better in a long term, try vim/emacs. If you just want a perfect tool now, pick an expensive one.
+
+IDE with simple configuration:       This tool is useful. It can help me finish my work
+Custumered IDE:                      I want to make my work better and this tool is cool.
+vim:               I love my tool, I love my job.
+emacs:             I just want to take it extremely serious, no other reason. Wasting time? Useless? Who care!
+
+update to the zhihu
+-------------------------------------------------------------------------------
+Tue 14 Feb 2017 15:10:31 NZDT
+现在又换回陈斌的再试试，主要是不想再折腾c++了， 好歹人家还夸口说c++支持强大了。不过，这个人很会夸口而已。
+
+光标支持的不是很舒服，可能主要是中文的缘故吧？竟然是支持自动保存的，不错。不过，因为是用中文，所以，当中文输入的时候，要对前面进行编辑就很不爽。
+
+最终还是想试试Prelude的，因为看代码的东西突然不会用了。貌似又是另外一套，而又不知道该从哪开始看。。。
+
+光标的问题看来都是一样，Prelude貌似还严重一点点呢。不过，好在中文打字移动方便多了。
+不知道为什么，Prelude中helm命令也找不到，好麻烦呀。想直接换spacemacs了。
+
+直接换吧，慢慢学呗。
+
+现在看起来，spacemacs也是一个难度有点高的东西，因为大部分的tutorial都在说leader以及evil之类的概念。不管了，既来之，则安之。
+看来看去，还是得看官方文档： http://spacemacs.org/doc/DOCUMENTATION.html， http://marker.to/ySYocT
+
+看了一下layer，就应该这样的嘛，妈的，以前那些，真不知道那些hacker是怎么搞的，竟然要一点点自己琢磨配置文件一刚。
+
+layer的本质思想其实跟kernel的规矩很像，并且每个文件夹应该如何弄doc中也有大概的说明，还有示例. 缺点是，这样的话，结构还是蛮多蛮复杂的。主要是定义得详细，这也是好事
+
+字体大小，改成16，但是没有变化？？是的，反正，更改这个.spacemacs是没什么效果的
+
+要做的事情：  replace TAB with C-z i
+
+纯emacs mode 对中文友好，vi的那种多模式的，对英文友好。因为前者，中文的时候，不切换输入法也能进行emacs操作。
+
+好吧，一步到位吧。切换到vim模式！
+
+从laravel 和spacemacs我们可以看到什么？ 是的，文档工作的好坏直接决定这种平台项目的成败，因此，文档的艺术将在以后被提升到很高的高度。
+
+所以，花点时间在文档的训练是好的。比如写作，比如emacs/latex/markdown/org-mode
+
+ok, from now on, I switch to hybird模式
+
+
+-------------------------------------------------------------------------------
+Mon Feb 13 08:43:50 NZDT 2017
+
+原来不是因为配置不对，而是因为meta键还可能是 opt！而不是command！而command则被设定s, 所以，spacemacs和chenbin的emacs原来是可以的！！
+
+
+Spacemacs uses Helm to organise these keybindings & commands into groups. Helm also helps you navigate the file system too, minimising the need to type directory and file names in full.
+
+
+因为喜欢magit，而陈斌不用，所以，最后的解决办法可能是用c++demo + purcell，或者 Prelude 或者spacemacs
+
+之所以那么纠结，还是因为没有一个非常好的配置指导手册，否则，我早就确定了。
+另外一个核心问题就是，在于工程师取向的，还是用户取向的。对于选车，最终是有了定论。那编辑器呢?
+
+
+
+历史惊人的相似：英国在无敌的100年之前，曾经和海上霸主荷兰，陆地霸主法国斗争并击败。 法国旱花一现，急于想重现当年的风采，结果，拿破仑被英国人干掉三次，之后就一直衰退，一百年后竟然被蹂躏得体无完肤。
+有时候，荷兰有点像日本，中国可别当法国啊，自以为在某一方面强大了就开始目中无人，到处惹事了。千万不可冒进。
+美国很聪明，在一战后，一直养精蓄锐，全面打基础，是英国人的最纯粹的继承。
+
+
+
+现在先只用helm吧，好好的把这个学好了，在去琢磨ido或者ido-flex的结合。一步步来。在Prelude的配置中，先设置helm everywhere: sample/prelude-modules.el
+
+
+
+1. GNU Global + ggtags
+2. GNU Global + helm + helm-gtags
+3. As ggtags and helm-gtags are independent, you can even have both of the above combinations installed and see what setup works the best for you.
+
+--------------------------------------------------------------------------------
+Sun Feb 12 21:04:44 2017
+
+chenbin的emacs的确是对c++支持得很好，但，问题是，我并不知道该怎么用，其实关键，还是emacs的各种用法和配置过于混乱，而我只需要遵循一个标准就可以了啊，当然，在最后我其实也找到了支持c++的很好很完善的介绍： http://tuhdo.github.io/  《《《《《 非常好的！！！
+这个陈斌的也不错http://blog.binchen.org/posts/emacs-as-c-ide-easy-way.html
+，但是还是觉得需要自己手动一点点弄，担心弄坏了，而且也没有太多时间搞着这一个个配置。还是直接用spacemacs的配置吧。要么？要么？？？来吧！！是的，这应该是最适合我的，就算不对，也是最大流的，反正以后不会后悔的。。。。听说关了那个evil模式就像普通emacs一样了
+
+
+emacs distribution list: http://ergoemacs.org/misc/list_of_emacs_starter_kits.html
+
+
+It depends on your objective. If you want to learn emacs itself, spacemacs may not be a good idea, because it mixes a lot of things (vi bindings, modes, etc). Perhaps prelude is better.
+If you want a good editor, ready to use, and don't care about deep emacs learning (or emacs way of doing things), go for spacemacs.
+Anyway I suggest you to try both and see which you like better.
+
+
+https://www.reddit.com/r/emacs/comments/4zrfin/emacs_for_starters_which_to_use_spacemacs_prelude/  good article, especially the discussion between syl20bnr author of spacemacs and technomancy author of starter kit !!!!!
+
+emacs --daemon
+
+这三个配置：
+1. spacemacs  always come with the evil mode, but very good tutorial and documents
+2. purcell    don't know how to support c++, although it uses quite plain emacs
+3. prelude    another key binding learning... a little tired
+
+
+For example, now, I don't know how to insert time/date with shortcut, but only use help to search
+
+
+
+
+我之所以纠结，是因为，这三个配置文件我的都想试，就像我现在找工作的方向。
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Sat Feb 11 10:09:56 NZDT 2017
+
+ldd3 - assignment 3 :
+http://www.cs.uni.edu/~diesburg/courses/dd/syllabus.html
+
+I did this based on my ubuntu12.04 kernel practice virtual machine parallels desktop image. but that kernel is 3.13.0-98 not 3.2.0. So when you are fixing a bug or problem, think twice about it. What is the root cause of it? For this issue, it is because that the kernel version is different, so the access.c file use different structure and slightly different usage. I searched the other version on github and found the update sample code for ldd3 in 2016 and then I backup my old access.c and use the new version access.c which works very well.  Actually, the really reason is that, this assignment 3 is based on the previous assignment, such as assignment 1, in which we should already build a linux system in kernel 3.2.x(36). What a stupid issue!!!
+
+The good news is that, the different kernel share the same gui tools!! So I can continue to use the previous environment, like git and emacs
+
+
+
+After a little more practice in assignment 3, I really desire to go over assginment 1 again! 看来还得扎实一点，现在都忘光光了。。
+
+
+assignment1 中重编译的时候，要把哪个文件重命名然后便于知道是哪个版本呢？？
+
+一个很好的裁剪kernel，尤其是裁剪驱动模块以及其他不用的模块的方法 是用上 olddefconfig 以及 localmodconfig
+http://stackoverflow.com/questions/32471557/what-is-the-most-efficient-and-elegant-way-develop-debug-linux-kernel   <<<< olddefconfig is a new command which may not be supported in all linux version
+Actually, you can also use  make oldconfig to customize the kernel configuration.
+
+http://unix.stackexchange.com/questions/253245/what-does-make-localmodconfig-do/253248
+http://www.h-online.com/open/features/Good-and-quick-kernel-configuration-creation-1403046.html
+
+however, I also use ccache to compile the kernel. but what is ccache??
+
+Again and again: use dell for kernel development not the virtual machine !! There is some driver problem for virtual machine
+可惜，dell上编译非常慢，毕竟是十几年前的电脑了。无论用make -j4，也都是1个小时。
+
+
+
+看到介绍ctag etag cscope的： http://stackoverflow.com/questions/12922526/tags-for-emacs-relationship-between-etags-ebrowse-cscope-gnu-global-and-exub
+
+貌似主要用cscope for c++
+
+
+
+
+想起一个问题： control message和manage message有什么差别吗？
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Fri Feb 10 17:14:39 NZDT 2017
+
+
+Using SCP
+
+SCP is ideal for quick transfer of single files, such as email attachments. Syntax is similar to the Unix copy command. For demonstration purposes, we'll use two computers (near and far) with the usernames this and that, respectively.
+
+scp path/to/file that@remote.computer:path/to/destination
+
+For example, if you want to transfer the file example.txt from your home directory on near to your home directory on far, the command might look like this:
+
+scp /home/this/example.txt that@far.uiuc.edu:/home/that/
+
+Note that you can also use SCP in reverse. If you want to transfer a file from far to near, you can type something like this:
+
+scp that@far.uiuc.edu:/home/that/example.txt /home/this/
+
+If you need to copy an entire directory, you'll need to use the recursive flag, like this:
+
+scp -r thisdirectory that@far.uiuc.edu:/home/that/
+
+Obviously, this system is a bit cumbersome for multiple file transfers. If you have a lot of work to do, such as web directory manipulation, you might want to use SFTP instead.
+
+
+I did talk with Don about the embedded system design and detail of programming on 8 bits chip and different type of chip
+
+嵌入式的本质，是减少资源，减少成本，而其关键点在于减少资源也不影响实际效果，而实际效果如何，就要靠实施以及生产以及后期维护。就像Qos， 无论你有多少资源，也总有用完的时候，而如何有效的管理，
+最有效的手段是哪些？裁剪功能，因为裁剪后资源损耗减少而不影响最主要的效果的产品，将会极大地得到应用的扩展。这也就涉及到，明白xxx技术的本质是什么？其%20和%80分别是什么？比如Android
+
+在不同的领域和应用中，这20%是不一样的，而在其优势领域持续增强这20%的功能是最重要的事情。尤其是这个领域，拥有上千亿的市场的时候。
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Thu Feb  9 05:38:48 NZDT 2017
 而今迈步从头越
 all start from work blog, like 9 years ago.
@@ -16,6 +431,7 @@ $ git remote -v
 origin	git@github.com:wangyihuan123/blog.git (fetch)
 origin	git@github.com:wangyihuan123/blog.git (push)
 zxl2013 at benjaminmacbook in ~/blog on master*
+
 $ git push -u origin master
 To github.com:wangyihuan123/blog.git
  ! [rejected]        master -> master (non-fast-forward)
@@ -42,3 +458,7 @@ found unmerge after commit, it is, however, quite normal, because I haven't push
 Thu Feb  9 08:02:43 NZDT 2017
 now, I can use dired to move all the blog of 2016 to a new folder /2016 and use magit log to check all branch/remote log detail.
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired-Deletion.html#Dired-Deletion
+
+
+Thu Feb  9 08:17:25 NZDT 2017
+well done, until now. practice is good! You already start your own system for long-term work.

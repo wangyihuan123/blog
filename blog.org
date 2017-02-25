@@ -1,0 +1,67 @@
+
+Insert current date and time:
+C-u M-! date
+
+-------------------------------------------------------------------
+Sat 25 Feb 2017 23:06:07 NZDT
+
+English, English!!
+
+No more Chinese!
+
+Unless Dongdong teach me his knowledge
+
+Calm down and carry up!
+
+
+
+
+
+
+
+-------------------------------------------------------------------
+Wed 22 Feb 2017 12:32:28 NZDT
+
+原来uart和spi都是char的device呀，好好学！
+* assignment 3 [0/5]
+  - [50%] go over the pdf
+  - [ ] ldd parts
+  - [ ] go over the assignment
+  - [ ] understand the source code
+  - [ ] compile and run my first demo
+  - [ ] a completion  for the assignment
+* SPI/UART
+* embedded research
+  - [ ] https://github.com/pycom/pycom-micropython
+
+
+
+世上最难的不是，一直在跑。而是当你停下来，甚至躺下来后，再爬起来，再开始跑。
+
+-------------------------------------------------------------------
+Tue 21 Feb 2017 07:43:31 NZDT
+* coding
+  DEADLINE: <2017-02-21 Tue>
+  - kernel and driver
+    - [ ] spi/uart
+    - [ ] assignment 3
+      - [ ] understand the source code
+      - [ ] compile and run my first demo
+      - [ ] a  for the assignment
+
+  - email
+    - [ ] sendmail: http://aosabook.org/en/sendmail.html
+    - [ ] GNU mailman: http://aosabook.org/en/mailman.html
+    - [ ] a simple test demo: https://github.com/isayme/esender/blob/master/bin/example.eml
+  - codility
+    - [ ] first step on codility
+  
+* transfer money [2/2]
+   - [X] to pingan bank
+   - [X] to anz bank
+* resume
+ - [X] linux/mail
+ - [X] Connexionz: http://www.connexionz.us/wp-content/uploads/products-services/resources/08-2781-UMD-Connexionz.pdf
+* Emacs update
+
+-------------------------------------------------------------------

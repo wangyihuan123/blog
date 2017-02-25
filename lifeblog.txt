@@ -1,0 +1,4 @@
+Insert current date and time:
+C-u M-! date
+
+Good beginning starts from extreme pain. Don't feel it twice! Please remember 8 years ago, please don't forget 9 years ago.
