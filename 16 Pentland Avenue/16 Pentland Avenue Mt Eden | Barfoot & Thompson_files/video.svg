@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="18px" viewBox="0 0 15 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-511.000000, -181.000000)">
+            <g id="Video" transform="translate(509.000000, 180.000000)">
+                <g>
+                    <g id="Chair">
+                        <g id="Chair-2">
+                            <g id="Roller">
+                                <rect id="Rectangle-6" x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <polygon id="Triangle" stroke="#353535" stroke-linejoin="round" points="17 10 3 18 3 2"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

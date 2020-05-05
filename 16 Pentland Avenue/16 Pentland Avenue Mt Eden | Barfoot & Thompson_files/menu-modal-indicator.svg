@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="8px" viewBox="0 0 15 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Transition-header" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logged-in-properties" transform="translate(-1845.000000, -49.000000)" fill="#F4F4F4">
+            <g id="Triangle" transform="translate(1616.000000, 49.000000)">
+                <polygon points="236.5 0 244 8 229 8"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

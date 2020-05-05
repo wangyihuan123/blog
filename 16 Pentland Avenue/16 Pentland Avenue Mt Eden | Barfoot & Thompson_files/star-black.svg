@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Star empty</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-356.000000, -172.000000)">
+            <g id="Star-empty" transform="translate(356.000000, 171.000000)">
+                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                <polygon id="Star" stroke="#353535" stroke-linejoin="round" points="10 15.124261 4.12214748 19.0901699 6.07759472 12.2744667 0.489434837 7.90983006 7.57582022 7.66340278 10 1 12.4241798 7.66340278 19.5105652 7.90983006 13.9224053 12.2744667 15.8778525 19.0901699"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

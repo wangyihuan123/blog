@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Camera</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Close-to-Done" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-176.000000, -108.000000)">
+            <g id="Camera" transform="translate(176.000000, 107.000000)">
+                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                <path d="M3,3 L4,3" id="Line-3" stroke="#353535" stroke-linecap="square"></path>
+                <g id="Group-3" transform="translate(0.000000, 2.000000)">
+                    <path d="M5.87759392,2 L1.5,2 L1.5,2 C0.94771525,2 0.5,2.44771525 0.5,3 L0.5,14.3 C0.5,14.8522847 0.94771525,15.3 1.5,15.3 L18.5,15.3 C19.0522847,15.3 19.5,14.8522847 19.5,14.3 L19.5,14.3 L19.5,3 C19.5,2.44771525 19.0522847,2 18.5,2 L13.8112441,2 L11.8112441,0 L7.87759392,0 L5.87759392,2 Z" id="Combined-Shape" stroke="#353535"></path>
+                    <circle id="Oval-3" fill="#353535" cx="17.5" cy="4.5" r="1"></circle>
+                    <circle id="Oval-4" stroke="#353535" cx="10" cy="8.5" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

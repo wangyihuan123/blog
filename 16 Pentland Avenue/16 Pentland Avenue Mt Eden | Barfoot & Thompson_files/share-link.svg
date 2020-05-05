@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Link</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Social-and-school-sprite-SVG" transform="translate(-330.000000, 0.000000)">
+            <g id="Link" transform="translate(330.000000, 0.000000)">
+                <g id="Group-11" fill="#353535">
+                    <rect id="Rectangle-156" x="0" y="0" width="30" height="30" rx="2"></rect>
+                </g>
+                <path d="M6.9,15 C6.9,13.29 8.29,11.9 10,11.9 L14,11.9 L14,10 L10,10 C7.24,10 5,12.24 5,15 C5,17.76 7.24,20 10,20 L14,20 L14,18.1 L10,18.1 C8.29,18.1 6.9,16.71 6.9,15 L6.9,15 Z M11,16 L19,16 L19,14 L11,14 L11,16 L11,16 Z M20,10 L16,10 L16,11.9 L20,11.9 C21.71,11.9 23.1,13.29 23.1,15 C23.1,16.71 21.71,18.1 20,18.1 L16,18.1 L16,20 L20,20 C22.76,20 25,17.76 25,15 C25,12.24 22.76,10 20,10 L20,10 Z" id="Shape" fill="#FFFFFF" transform="translate(15.000000, 15.000000) rotate(-45.000000) translate(-15.000000, -15.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
